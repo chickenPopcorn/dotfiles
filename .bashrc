@@ -1,3 +1,7 @@
+
+cal
+date
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -91,7 +95,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias open='xdg-open'
+alias home='ssh jimmy@68.174.103.65'
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -111,3 +116,7 @@ fi
 # git completion
 source ~/.git-completion.sh
 
+# for GO APP ENGINE
+export GOPATH="/Users/rxie/Desktop/go"
+export GOROOT="/usr/local/go"
+export PATH="/Users/rxie/go/bin:$PATH"
